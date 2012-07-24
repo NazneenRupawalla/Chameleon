@@ -30,7 +30,7 @@ public class WhiteHatHacker {
         numericValueList.add(numericValues.parseNumbers(input1));
         numericValueList.add(numericValues.parseNumbers(input2));
        num=numericValues.performOp(op,numericValueList);
-       System.out.println(numericValues.showOutput(num));
+       System.out.println(numericValues.convertToWords(num));
 
     }
 }
